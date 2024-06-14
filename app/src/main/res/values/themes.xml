@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyAnimeList" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#222222</item>
+
+        <!--   Primary Color -->
+        <item name="colorPrimary">#222222</item>
+        <item name="colorAccent">#121212</item>
+    </style>
+
+    <style name="Theme.MyAnimeList" parent="Base.Theme.MyAnimeList" />
+</resources>

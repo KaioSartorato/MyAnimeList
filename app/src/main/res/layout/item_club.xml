@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvClubName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Club Name"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvClubDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Club Description"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvClubMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="449 members"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.myanimelist.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/discussion"
+        android:name="com.example.myanimelist.DiscussionFragment"
+        android:label="fragment_discussion"
+        tools:layout="@layout/fragment_discussion" />
+    <fragment
+        android:id="@+id/discover"
+        android:name="com.example.myanimelist.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" />
+    <fragment
+        android:id="@+id/seasonal"
+        android:name="com.example.myanimelist.SeasonalFragment"
+        android:label="fragment_seasonal"
+        tools:layout="@layout/fragment_seasonal" />
+    <fragment
+        android:id="@+id/myList"
+        android:name="com.example.myanimelist.MyListFragment"
+        android:label="fragment_my_list"
+        tools:layout="@layout/fragment_my_list" />
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.example.myanimelist.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/fragment_profile" />
+    </fragment>
+
+</navigation>

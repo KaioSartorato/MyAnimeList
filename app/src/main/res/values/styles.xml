@@ -1,0 +1,14 @@
+<resources>
+    <!-- Outros estilos do tema podem estar aqui -->
+
+    <!-- Estilo para tornar a ImageView circular -->
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="EditTextHintStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">#b8b8b8</item>
+        <item name="android:textColor">#b8b8b8</item>
+    </style>
+</resources>
